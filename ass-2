@@ -1,0 +1,14 @@
+employee={1: ['sahithi','manager','30july2020',100000,'hyd'],2:['phani','assistant manager','29july2021',75000,'hyd'],3:['naga sri','supervisor','1april2021',50000,'delhi'],4:['ramcharan','ceo','27mar2018',150000,'mumbai'],5:['jvv','supervisor','14feb2021',40000,'chennai']}
+x = int (input ('enter the employee no:'))
+print ('name of the employee:', employee[x][0])
+print ('designation:', employee[x][1])
+print('doj:',employee[x][2])
+print('salary:',employee[x][3])
+print('city:',employee[x][4])
+output:
+enter the employee no:4
+name of the employee: ramcharan
+designation: ceo
+doj: 27mar2018
+salary: 150000
+city: mumbai
